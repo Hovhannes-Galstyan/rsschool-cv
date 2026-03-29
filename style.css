@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  background-color: #c2d3eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Roboto", "sans-serif";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #040404;
+  
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav {
+  width: 100%;
+  padding: 12px;
+  background-color: 2d3eb;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline; 
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+   font-size: 28px;
+}
+
+.nav-item a {
+  color: #080808;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-item :hover {
+  color: #6f1b1b;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.header {
+  
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+
+.header_img img {
+  width: 150px;
+  height: 150px;
+  margin-top: 16px;
+  border-radius: 10%;
+  border: 5px solid #e5e5e5;
+  right: 20px;
+}
+
+
+.header-info h1 {
+  font-size: 24px;
+  color: #1d1d1e;
+}
+
+.header-info h2 {
+  font-size: 16px;
+  color: #1c1b1b;
+  margin-top: 5px;
+}
+
+
+.main_container {
+  width: 100%;
+  max-width: 880px;
+  display: flex;            
+  margin: auto;             
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.aside {
+  flex: 3;
+  background: #c2d3eb;
+  color: rgb(12, 12, 12);
+  padding: 20px;
+}
+
+.main_content {
+  flex: 7;
+  padding: 20px;
+}
+
+section {
+  padding: 20px 30px;
+  width: 70%;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #2f3b4c;
+  font-size: 18px;
+}
+section h3 {
+  margin-bottom: 10px;
+  color: #2f3b4c;
+  font-size: 16px;
+}
+
+section p,
+section li {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+pre {
+  padding: 15px;
+  background: c2d3eb;
+  border-radius: 10px; 
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-top: 1px solid #eee;
+  background-color: #c2d3eb;
+}
+
+.footer img {
+  object-fit: contain;
+}
+
+
