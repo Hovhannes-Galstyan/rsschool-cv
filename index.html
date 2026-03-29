@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <div class="container">
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#profile">About Me</a></li>
+          <li class="nav-item"><a href="#profile" class="nav-link">About Me</a></li>
           <li class="nav-item"><a href="#contacts">Contacts</a></li>
           <li class="nav-item"><a href="#skills">Skills</a></li>
           <li class="nav-item"><a href="#code_example">Code Example</a></li>
@@ -30,15 +30,20 @@
           <h2>Junior Front-End Developer</h2>
         </div>
       </header>
-      <main class="main_container">
-        <section id="profile">
-          <h2>About me</h2>
-          <p>
-            Junior Front-End Developer seeking an internship or entry-level
-            position. Transitioning from finance to IT with strong analytical
-            thinking, discipline, and problem-solving skills developed over 13+
-            years in banking
-          </p>
+      <div class="main_container">
+        <aside class="aside">
+          <section id="education">
+            <h2>Education</h2>
+            <h3>ARMENIAN NATIONAL AGRARIAN UNIVERSITY</h3>
+            <h4>Master of economics</h4>
+          </section> 
+        <section id="courses">
+          <h2>Courses</h2>
+          <h3>EPAM</h3>
+          <a href="https://campus.epam.com/en/training/5451">
+            Introduction to Front-End
+          </a>
+        </section>
         </section>
         <section id="contacts">
           <h2>Contacts</h2>
@@ -48,45 +53,45 @@
             <li><a href="https://discord.com/" target="_blank">hovhannes_60204</a></li>
           </ul>
         </section>
-        <section id="skills">
-          <h2>Technical Skills</h2>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript (ES6+)</li>
-            <li>Tailwind</li>
-            <li>GitHub</li>
-            <li>Figma</li>
-          </ul>
-        </section>
-        <section id="code_example">
-          <h2>Code Example</h2>
-          <pre>
+        </aside>
+        <main class="main_content">
+          <section id="profile">
+            <h2>About me</h2>
+            <p>
+              Junior Front-End Developer seeking an internship or entry-level
+              position. Transitioning from finance to IT with strong analytical
+              thinking, discipline, and problem-solving skills developed over 13+
+              years in banking
+            </p>
+          </section>
+          <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Tailwind</li>
+              <li>GitHub</li>
+              <li>Figma</li>
+            </ul>
+          </section>
+          <section id="code_example">
+            <h2>Code Example</h2>
+            <pre>
               function fibonacciIterative(n) {
                 if (n &lt; 2) return n;
                 else {
                   return fibonacciIterative(n - 1) + fibonacciIterative(n - 2);
                 }
               }
-          </pre>
-        </section>
-        <section id="education">
-          <h2>Education</h2>
-          <h3>ARMENIAN NATIONAL AGRARIAN UNIVERSITY</h3>
-          <h4>Master of economics</h4>
-        </section>
-        <section id="courses">
-          <h2>Courses</h2>
-          <h3>EPAM</h3>
-          <a href="https://campus.epam.com/en/training/5451">
-            Introduction to Front-End
-          </a>
-        </section>
-        <section id="languages">
-          <h2>Languages</h2>
-          <p>English – A2</p>
-        </section>
-      </main>
+            </pre>
+          </section>
+          <section id="languages">
+            <h2>Languages</h2>
+            <p>English – A2</p>
+          </section>
+        </main>
+      </div>
       <footer class="footer">
         <a href="https://github.com/Hovhannes-Galstyan" target="_blank">
           <img 
